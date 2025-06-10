@@ -24,7 +24,7 @@
     },
     {
       "workspaces": [
-        { "name": "secondary", "layout": "BSP" },
+        { "name": "quaternary", "layout": "BSP" },
         { "name": "quaternary", "layout": "BSP" }
       ]
     }
