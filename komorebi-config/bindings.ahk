@@ -1,5 +1,7 @@
 ; Hotkey bindings for Colemak layout
 
+;test
+
 ; Focus windows
  !m::       Komorebi("cycle-focus previous")
  !n::       Komorebi("cycle-focus next")
@@ -48,4 +50,5 @@ return
 
 +!k::       Komorebi("cycle-move-to-workspace previous")
 +!h::       Komorebi("cycle-move-to-workspace next")
+
 
