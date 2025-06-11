@@ -3,8 +3,8 @@
 ;test
 
 ; Focus windows
- +F13::       Komorebi("cycle-focus previous")
- +F22::       Komorebi("cycle-focus next")
+ +F13::     Komorebi("cycle-focus previous")
+ +F22::     Komorebi("cycle-focus next")
  !o::       Komorebi("cycle-monitor next")
  !e::       Komorebi("promote-focus")
 
@@ -44,9 +44,15 @@ return
  ^!+F15::       Komorebi("resize-axis vertical increase")
  ^!+F14::       Komorebi("resize-axis vertical decrease")
 
-; Workspaces
+; Cycle Workspaces
+  F21::       Komorebi("focus-last-workspace")
+
  +F21::       Komorebi("cycle-workspace previous")
  ^F21::       Komorebi("cycle-workspace next")
+
+ !F21::       Komorebi("cycle-empty-workspace next")
+ ;^!+0::Komorebic("cycle-empty-workspace previous")
+ 
 
 +!k::       Komorebi("cycle-move-to-workspace previous")
 +!h::       Komorebi("cycle-move-to-workspace next")
