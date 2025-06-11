@@ -12,7 +12,7 @@
 F13::       Komorebi("cycle-move previous")
 F22::       Komorebi("cycle-move next")
 +!o::       Komorebi("cycle-move-to-monitor next")
-+!e::
+F15::
             Komorebi("manage")
             Komorebi("promote")
 return
@@ -30,8 +30,8 @@ return
  !p::       Komorebi("toggle-pause")
 
 ; Layouts
- !'::       Komorebi("cycle-layout next")
-+!'::       Komorebi("cycle-layout previous")
+ ^F17::       Komorebi("cycle-layout next")
+ ^F18::       Komorebi("cycle-layout previous")
 
  !+F17::       Komorebi("flip-layout horizontal")
  !+F18::       Komorebi("flip-layout vertical")
@@ -45,8 +45,8 @@ return
 +!j::       Komorebi("resize-axis vertical decrease")
 
 ; Workspaces
- !k::       Komorebi("cycle-workspace previous")
- !h::       Komorebi("cycle-workspace next")
+ +F21::       Komorebi("cycle-workspace previous")
+ ^F21::       Komorebi("cycle-workspace next")
 
 +!k::       Komorebi("cycle-move-to-workspace previous")
 +!h::       Komorebi("cycle-move-to-workspace next")
