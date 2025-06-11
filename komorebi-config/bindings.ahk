@@ -33,8 +33,8 @@ return
  !'::       Komorebi("cycle-layout next")
 +!'::       Komorebi("cycle-layout previous")
 
- !y::       Komorebi("flip-layout horizontal")
-+!y::       Komorebi("flip-layout vertical")
+ !+F17::       Komorebi("flip-layout horizontal")
+ !+F18::       Komorebi("flip-layout vertical")
 
  !?::   SwapScreens()
 
