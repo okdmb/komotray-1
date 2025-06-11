@@ -38,11 +38,11 @@ return
 
  !?::   SwapScreens()
 
-; Resize
- !l::       Komorebi("resize-axis horizontal increase")
- !j::       Komorebi("resize-axis horizontal decrease")
-+!l::       Komorebi("resize-axis vertical increase")
-+!j::       Komorebi("resize-axis vertical decrease")
+; Resize windows
+ ^!+F22::       Komorebi("resize-axis horizontal increase")
+ ^!+F13::       Komorebi("resize-axis horizontal decrease")
+ ^!+F15::       Komorebi("resize-axis vertical increase")
+ ^!+F14::       Komorebi("resize-axis vertical decrease")
 
 ; Workspaces
  +F21::       Komorebi("cycle-workspace previous")
