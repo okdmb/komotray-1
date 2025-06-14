@@ -4,11 +4,11 @@
   "window_hiding_behaviour": "Cloak",
   "cross_monitor_move_behaviour": "Insert",
   "alt_focus_hack": false,
-  "focus_follows_mouse": "Windows",
   "active_window_border": true,
-
+  "border_width": 8,
+  "border_offset": -1,
   "default_workspace_padding": -10,
-  "default_container_padding": 10,
+  "default_container_padding": 6,
   "unmanaged_window_operation_behaviour": "Op",
   "float_rules": [
     { "kind": "Exe", "id": "none.exe", "matching_strategy": "Regex" }
