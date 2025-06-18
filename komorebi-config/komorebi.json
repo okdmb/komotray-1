@@ -5,9 +5,11 @@
   "cross_monitor_move_behaviour": "Insert",
   "alt_focus_hack": false,
   "active_window_border": true,
-  "border_width": 6,
+  "border_implementaion": "komorebi",
+  "border_width": 5,
   "border_offset": -1,
-  "default_workspace_padding": 0,
+  "border_style": "Square",
+  "default_workspace_padding": 2,
   "default_container_padding": 4,
   "unmanaged_window_operation_behaviour": "Op",
   "float_rules": [
