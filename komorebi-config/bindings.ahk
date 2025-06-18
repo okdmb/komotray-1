@@ -1,6 +1,29 @@
 ; Hotkey bindings for Colemak layout
 
-;test
+
+
+
+
+;test these commands in cmd/documentation
+
+/*
+start
+stop
+check
+configuration
+data-directory
+state
+global-state
+gio
+toggle-shortcuts
+visible-windows
+monitor-information
+manage
+unmanage
+enable-autostart
+disable-autostart 
+*/
+
 
 ; Focus windows
  +F13::     Komorebi("cycle-focus previous")
