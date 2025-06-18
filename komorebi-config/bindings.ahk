@@ -41,15 +41,15 @@ F15::
 return
 
 ; Manipulate windows
- !f::       Komorebi("toggle-monocle")
+ +F15::       Komorebi("toggle-monocle")
  !t::       Komorebi("toggle-float")
 
- !x::       WinMinimize, A
-+!c::       WinClose, A
-+!t::       WinSet, Style, ^0xC00000, A  ; Toggle titlebar
+ F14::       WinMinimize, A
+ +!c::       WinClose, A
+ +!t::       WinSet, Style, ^0xC00000, A  ; Toggle titlebar
 
 ; Window manager options
-+!r::       Komorebi("retile")
+ +!r::       Komorebi("retile")
  !p::       Komorebi("toggle-pause")
 
 ; Layouts
