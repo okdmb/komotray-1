@@ -6,11 +6,11 @@
   "alt_focus_hack": false,
   "active_window_border": true,
   "border_implementaion": "komorebi",
-  "border_width": 8,
+  "border_width": 5,
   "border_offset": -1,
   "border_style": "Square",
-  "default_workspace_padding": 4,
-  "default_container_padding": 4, 
+  "default_workspace_padding": 3,
+  "default_container_padding": 2, 
   "unmanaged_window_operation_behaviour": "Op",
   "float_rules": [
     { "kind": "Exe", "id": "none.exe", "matching_strategy": "Regex" }
