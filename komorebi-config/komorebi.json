@@ -4,7 +4,7 @@
   "window_hiding_behaviour": "Cloak",
   "cross_monitor_move_behaviour": "Insert",
   "alt_focus_hack": false,
-  "active_window_border": true,
+  "border": true,
   "border_implementaion": "komorebi",
   "border_width": 5,
   "border_offset": -1,
@@ -12,7 +12,7 @@
   "default_workspace_padding": 4,
   "default_container_padding": 4, 
   "unmanaged_window_operation_behaviour": "Op",
-  "float_rules": [
+  "ignore_rules": [
     { "kind": "Exe", "id": "none.exe", "matching_strategy": "Regex" }
   ],
   "monitor_index_preferences": {
@@ -48,7 +48,7 @@
         { "name": "tertiary", "layout": "BSP", "bsp_max_nodes": 4 },
         { "name": "quaternary", "layout": "BSP", "bsp_max_nodes": 4 },
         { "name": "Quinary", "layout": "BSP", "bsp_max_nodes": 4 },
-        { "name": "PHONE", "layout": "W-STACK", "bsp_max_nodes": 4 }
+        { "name": "PHONE", "layout": "UltrawideVerticalStack", "bsp_max_nodes": 4 }
       ]
     },
     {
