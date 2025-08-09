@@ -9,8 +9,8 @@
   "border_width": 5,
   "border_offset": -1,
   "border_style": "Square",
-  "default_workspace_padding": 3,
-  "default_container_padding": 2, 
+  "default_workspace_padding": 4,
+  "default_container_padding": 4, 
   "unmanaged_window_operation_behaviour": "Op",
   "float_rules": [
     { "kind": "Exe", "id": "none.exe", "matching_strategy": "Regex" }
@@ -20,14 +20,15 @@
   },
 
 "border_colours": {
-  "floating": "#FFB86C",
+  "floating": "#FFB86C", // "floating": "#FFB86C",
   "monocle": "#FF79C6",
-  "single": "#50FA7B",
+  "single": "#50FA7B", //"single": "#FF79C6",
   "stack": "#BD93F9",
   "unfocused": "#6272a4",
   "unfocused_locked": "#44475A"
   },
 
+  // Powertoys always on top pink #FF0BD2
 
 
   "stackbar": {
