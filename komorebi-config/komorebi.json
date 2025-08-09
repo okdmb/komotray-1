@@ -48,7 +48,7 @@
         { "name": "tertiary", "layout": "BSP", "bsp_max_nodes": 4 },
         { "name": "quaternary", "layout": "BSP", "bsp_max_nodes": 4 },
         { "name": "Quinary", "layout": "BSP", "bsp_max_nodes": 4 },
-        { "name": "Senary", "layout": "BSP", "bsp_max_nodes": 4 }
+        { "name": "PHONE", "layout": "W-STACK", "bsp_max_nodes": 4 }
       ]
     },
     {
